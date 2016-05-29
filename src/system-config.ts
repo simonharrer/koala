@@ -3,6 +3,7 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+    app: 'koala'
 };
 
 /** User packages configuration. */
