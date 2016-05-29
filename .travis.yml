@@ -9,7 +9,4 @@ node_js:
 before_script:
 - npm install -g angular-cli
 
-script: ng build --prod
-
-after_script:
-- scripts/push-to-ghpages
+script: ng github-pages:deploy --gh-token ${GH_TOKEN} --gh-username ${GH_USERNAME}
