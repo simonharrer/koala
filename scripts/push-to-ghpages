@@ -9,6 +9,7 @@ cp -rf dist out
 
 (
 cd out
+sed -i 's/base href="\/"/base href="\/koala\/"/g' index.html
 git init
 git config user.name "Travis-CI"
 git config user.email "travis@example.com"

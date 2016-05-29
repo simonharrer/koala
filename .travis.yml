@@ -8,7 +8,8 @@ node_js:
 
 before_script:
 - npm install -g angular-cli
-- git config --global user.email "travis@example.com"
-- git config --global user.name "Travis CI"
 
-script: ng github-pages:deploy --gh-token ${GH_TOKEN}
+script: ng build --prod
+
+after_script:
+- scripts/push-to-ghpages
