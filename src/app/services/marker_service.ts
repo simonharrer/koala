@@ -90,4 +90,23 @@ export class MarkerService {
         }
     }
 
+    removeMarkers() {
+        for (let m of this.markers.slice()) {
+            this.removeSpecificMarker(m);
+        }
+    }
+
+    private removeSpecificMarker(m) {
+        m.setMap(null);
+
+        //console.log("Deleting marker for location");
+
+        let index = this.markers.indexOf(m, 0);
+        if (index > -1) {
+            // delete marker
+            this.markers.splice(index, 1);
+        }
+        return index;
+    }
+
 }

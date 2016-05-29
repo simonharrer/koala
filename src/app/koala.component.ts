@@ -193,10 +193,10 @@ export class KoalaAppComponent implements OnInit {
     }
 
     clearUserData() {
-        for(let l of this.userData.pointsOfInterests) {
+        for(let l of this.userData.pointsOfInterests.slice()) {
             this.deleteLocation(l);
         }
-        for(let l of this.userData.futureHomes) {
+        for(let l of this.userData.futureHomes.slice()) {
             this.deleteLocation(l);
         }
     }
