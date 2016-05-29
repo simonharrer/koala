@@ -1,0 +1,145 @@
+h2 {
+  font: 300 2.8rem/3rem 'Roboto Slab', serif;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+}
+
+h4 {
+  font: 700 1.4rem/3rem 'Roboto Slab', serif;
+  color: rgba(255,184,78, 1)
+}
+
+select {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+  border-radius: 5px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+#koala-left-panel {
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0 1.4rem;
+  background-color: rgba(88, 177, 141, 1);
+}
+.futurehome, .poi {
+   padding: 0.4rem 0 0.4rem 0.4rem;
+}
+
+.futurehome {
+  background-color-hell: rgba(88, 207, 141, 1);
+  background-color-dunkel: rgba(44, 89, 71, 1);
+}
+
+.poi {
+  background-color-hell: rgba(61, 133, 203, 1);
+  background-color-dunkel: rgba(33, 40,  129, 1)
+}
+
+
+.koala-address {
+
+}
+
+.magic-home-or-poi-container {
+
+}
+
+.koala-header {
+  ;
+}
+.koala-headline {
+  margin: 2.8rem 0 1.4rem;
+  font-weight: bold;
+  font: 700 1.88rem/3rem 'Roboto Slab', serif;
+}
+
+
+.koala-btn-add {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+
+  border-radius: 100%;
+  float: right;
+  background: white;
+  color: rgba(66, 78, 94, 1);
+  border-width: 0px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+.koala-btn-remove {
+}
+
+.koala-btn-action {
+  font: 700 1.88rem/3rem 'Roboto Slab', serif;
+  /* margin-top: 1.88rem; */
+  background: rgba(255,184,78, 1)
+}
+
+.koala-btn-danger-action {
+  font: 700 1.88rem/3rem 'Roboto Slab', serif;
+  margin-top: 1.88rem;
+  background: rgba(205, 92, 95, 1)
+}
+
+.koala-search-radius {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  background-color: rgba(44, 89, 71, 1);
+  border-style: none;
+  text-align: right;
+}
+
+button.koala-action-button {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 15px;
+  padding: 0px;
+  padding-top: 3px;
+  margin-left: 21px;
+
+}
+
+button.koala-action-button > span.glyphicon {
+  color: rgba(88, 177, 141, 1);
+}
+
+.koala-centered {
+  justify-content: center;
+}
+
+.koala-background-home{
+  background-color: rgba(88, 177, 141, 1);
+}
+
+.td-koala-says {
+  background-color: rgba(255,184,78, 1);
+}
+
+/*.koala-background-poi {
+  background-color: indianred;
+}*/
+
+.koala-says-nearest {
+  margin-top: 1.4rem;
+  font-size: 16px;
+}
+
+.koala-says-nearest-category {
+  font-weight: bold;
+}
+
+.info-sign {
+  color:black;
+}

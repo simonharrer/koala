@@ -1,0 +1,4 @@
+<select class="form-control input-sm" [(ngModel)]="commuteFrequency" (ngModelChange)="commuteFrequencyChange.emit($event)">
+  <option *ngFor="let commuteFrequency of commuteFrequencies" [ngValue]="commuteFrequency">{{commuteFrequency.name}}
+  </option>
+</select>

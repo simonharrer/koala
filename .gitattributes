@@ -1,0 +1,6 @@
+* eol=lf
+*.bat eol=crlf
+
+*.ico binary
+*.jpg binary
+*.png binary
