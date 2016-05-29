@@ -7,10 +7,7 @@ node_js:
 
 before_script:
 - npm install -g angular-cli
-- npm install
 
-script:
-- ng build --prod
+script: ng build --prod
 
-deploy:
-- script/push-to-ghpages
+deploy: script/push-to-ghpages
