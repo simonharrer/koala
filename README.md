@@ -1,4 +1,4 @@
-# Koala
+# Koala [![Build Status](https://travis-ci.org/simonharrer/koala.svg?branch=master)](https://travis-ci.org/simonharrer/koala)
 
 The work was conducted in the scope of [AngularAttack](https://www.angularattack.com) 2016.
 
