@@ -2,6 +2,8 @@
 
 The work was conducted in the scope of [AngularAttack](https://www.angularattack.com) 2016.
 
+You can try the app out at [simonharrer.github.io/koala](http://simonharrer.github.io/koala/).
+
 ## Team
 
 - [Simon Harrer](https://github.com/simonharrer)
