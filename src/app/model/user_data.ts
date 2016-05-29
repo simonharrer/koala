@@ -43,11 +43,6 @@ export class UserData {
         this.pointsOfInterests.push(parents);
     }
 
-    public clear() {
-        this.futureHomes.length = 0;
-        this.pointsOfInterests.length = 0;
-    }
-
     cleanupUnusedDistances() {
         for (let distance of this.distances) {
             let isStillUsed:boolean = false;
