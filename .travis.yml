@@ -10,5 +10,5 @@ before_script:
 
 script: ng build --prod
 
-deploy:
-- "script/push-to-ghpages"
+after_script:
+- script/push-to-ghpages
