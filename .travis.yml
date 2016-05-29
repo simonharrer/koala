@@ -11,4 +11,4 @@ before_script:
 - git config --global user.email "travis@example.com"
 - git config --global user.name "Travis CI"
 
-script: ng github-pages:deploy --gh-token ${GH_TOKEN} --gh-username ${GH_USERNAME}
+script: ng github-pages:deploy --gh-token ${GH_TOKEN}
