@@ -2,6 +2,13 @@
 
 The work was conducted in the scope of [AngularAttack](https://www.angularattack.com) 2016.
 
+## Team
+
+- [Simon Harrer](https://github.com/simonharrer)
+- [Linus Dietz](https://github.com/lynyus)
+- [Oliver Kopp](https://github.com/koppor)
+- [Peter Dingler](https://github.com/synergycigar)
+
 ## Background
 
 This thing bases on [angular-cli](https://cli.angular.io/).
