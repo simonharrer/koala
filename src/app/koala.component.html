@@ -1,8 +1,11 @@
-<div id="koala-left-panel" class="full-height">
+<div class="full-height">
   <div class="row koala-headline">
-    <h2 class="text-center">Your Koala Homes
-      <div class="koala-btn-add" (click)="addFutureHome()">+</div>
-    </h2>
+    <div style="width:90%; float:left;">
+      <h2 class="text-center">Your Koala Homes</h2>
+    </div>
+    <div class="center-block" style="width: 10%; overflow: hidden">
+      <div class="koala-btn-add text-center large-roboto-font" (click)="addFutureHome()">+</div>
+    </div>
   </div>
 
   <!-- using bootstrap horizontal layout which uses form-groups as rows -->
@@ -39,7 +42,7 @@
 
       <div class="form-group">
         <div class="col-xs-12">
-          <input type="text" placeholder="... and give it a name" style="text-align: center" class="input-sm center-block"
+          <input type="text" placeholder="... and give it a name" class="input-sm text-center center-block"
                  [(ngModel)]="l.name">
         </div>
       </div>
@@ -49,11 +52,17 @@
   </form>
 
   <div class="row koala-headline">
-    <h2 class="text-center">Your Destinations <a title="" data-toggle="tooltip" class="group-info"
+    <div style="width:80%; float:left;">
+      <h2 class="text-center">Your Destinations</h2>
+    </div>
+    <div class="center-block" style="width: 10%; overflow: hidden; float:left;">
+      <a title="" data-toggle="tooltip" class="group-info"
                                                  data-original-title="Enter usual destinations. You can give them names and set how frequently you visit them. Also try adding them by clicking on the map."><span
-      class="glyphicon glyphicon-info-sign info-sign "></span></a>
-      <div class="koala-btn-add" (click)="addPOI()">+</div>
-    </h2>
+      class="glyphicon glyphicon-info-sign info-sign" style="font-size:larger;"></span></a>
+    </div>
+    <div class="center-block" style="width: 10%; overflow: hidden; float:left">
+      <div class="koala-btn-add text-center large-roboto-font" (click)="addPOI()">+</div>
+    </div>
   </div>
 
   <form class="form-horizontal">
