@@ -41,7 +41,9 @@ export class MarkerService {
 
         var marker = new google.maps.Marker({
             position: loc,
-            icon: iconSVG,
+            icon: new google.maps.MarkerImage(iconSVG,
+                null, null, null, new google.maps.Size(40, 40)),
+            optimized: false,
             map: map,
             animation: google.maps.Animation.DROP,
             title: location.name
